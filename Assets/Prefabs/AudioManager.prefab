@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7371228350652648722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7371228350652648724}
+  - component: {fileID: 7371228350652648725}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7371228350652648724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371228350652648722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.841484, y: 30.674265, z: -141.61171}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7371228350652648725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371228350652648722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254fcf24a28578b4c841b54188b0bcc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clipName: Hit
+    clip: {fileID: 8300000, guid: b4c3c517e11fa3543888fb7f29964c6f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clipName: Pickup
+    clip: {fileID: 8300000, guid: 87ac81c3dc62e7f43b12071dc8cdc074, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clipName: Shoot
+    clip: {fileID: 8300000, guid: b0319c120e23b0649b499e96d2db3585, type: 3}
+    volume: 0.361
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - clipName: MenuMusic
+    clip: {fileID: 8300000, guid: 0e92dfd9c41820b489e03c2f11d42bad, type: 3}
+    volume: 0.787
+    pitch: 0.431
+    loop: 0
+    source: {fileID: 0}
+  - clipName: RetryMusic
+    clip: {fileID: 8300000, guid: 0e92dfd9c41820b489e03c2f11d42bad, type: 3}
+    volume: 1
+    pitch: 0.293
+    loop: 0
+    source: {fileID: 0}
+  - clipName: EnemyHurt
+    clip: {fileID: 8300000, guid: b4c3c517e11fa3543888fb7f29964c6f, type: 3}
+    volume: 1
+    pitch: 0.72
+    loop: 0
+    source: {fileID: 0}
